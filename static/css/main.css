@@ -1,0 +1,58 @@
+body {
+  margin-left: 30px;
+  padding: 10px;
+  font-family: "STHeiti", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: lightgray;
+  align-items: center;
+}
+/*
+ * Formatting the header area
+ */
+header {
+  background-color: #2F2F3B;
+  height: 50px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 0px;
+}
+
+div.help {
+  padding: 10px 0 10px 0;
+  background-color: white;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  color: #999;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #444;
+}
+h4 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+footer {
+  margin-top: 0px;
+  padding: 0 0 10px;
+  background-color: #2F2F3B;
+  font-family: "STHeiti", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.logo {
+  margin: 10px 0;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}

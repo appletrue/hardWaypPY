@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>欢迎使用心知天气查询</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <header>
+      <div style="width: 1000px">
+        <img src="/static/image/logo-red-text-white-2x.png" style="width:144px; height:50px;" alt="心知天气">
+      </div>
+    </header>
+    <div>
+      <h2 align="center">冷暖自心知 专业天气查询</h2>
+      <p align="center">请输入城市名称或拼音，点击'查询'按钮获取天气状况，或点击'帮助'获取帮助文档</p>
+      <div align="center">
+        <form action="/input_words" method="GET">
+          <input type="text" name="city" placeholder="请输入城市">
+          <input type="submit" name="search" value="查询">
+          <input type="submit" name="help" value="帮助">
+          <input type="submit" name="history" value="历史">
+        </form>
+      </div>
+      {% block content %}
+      {% endblock %}
+    </div>
+    <footer>
+      <div align="center">
+        <img src="/static/image/cma.png" width="40" height="40" class="logo"><a class="logo-text">中国气象局</a>
+        <img src="/static/image/logo-red-2x.png" width="40" height="40" class="logo"><a class="logo-text">心知科技</a>
+      </div>
+
+      <p align="center">
+        ----------------------------------------------------------------------------------------------<br>
+        联系电话：400-900-2501<br>
+        京ICP备16067076号
+      </p>
+    </footer>
+  </body>
+</html>

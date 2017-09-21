@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block content %}
+  <div class="history">
+    <p align="center">
+      您刚刚查询过的城市有以下：
+    </p>
+    {% for i in history_list %}
+    <ul align="center">
+      <li>{{ i }}</li>
+    </ul>
+    {% endfor %}
+  </div>
+{% endblock %}
