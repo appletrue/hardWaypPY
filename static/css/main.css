@@ -1,20 +1,18 @@
+header {
+  background-color: #1a1a1a;
+  height: 50px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 0px;
+}
+
 body {
   margin-left: 30px;
   padding: 10px;
   font-family: "STHeiti", Helvetica, Arial, sans-serif;
   color: #444;
-  background-color: lightgray;
+  background-color: white;
   align-items: center;
-}
-/*
- * Formatting the header area
- */
-header {
-  background-color: #2F2F3B;
-  height: 50px;
-  width: 100%;
-  opacity: .9;
-  margin-bottom: 0px;
 }
 
 div.help {
@@ -42,12 +40,24 @@ h4 {
   color: #999;
 }
 
+.btn {
+    color: #ffffff;
+    background-color: #ec1313;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    border:none;
+}
+
 footer {
-  margin-top: 0px;
-  padding: 0 0 10px;
-  background-color: #2F2F3B;
-  font-family: "STHeiti", Helvetica, Arial, sans-serif;
-  color: white;
+    margin-top: 100px;
+    padding: 0 0 10px;
+    background-color: #1a1a1a;
+    vertical-align: middle;
+    font-family: "STHeiti", Helvetica, Arial, sans-serif;
+    color: white;
 }
 .logo {
   margin: 10px 0;
