@@ -1,1 +1,1 @@
-web:FLASK_APP=weather.py python -m flask run --host=127.0.0.1 --port=5000
+web: gunicorn gettingstarted.wsgi --log-file -
