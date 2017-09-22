@@ -16,10 +16,11 @@
       <p align="center">请输入城市名称或拼音，点击'查询'按钮获取天气状况，或点击'帮助'获取帮助文档</p>
       <div align="center">
         <form action="/input_words" method="GET">
-          <input type="text" name="city" placeholder="请输入城市">
-          <input type="submit" name="search" value="查询">
-          <input type="submit" name="help" value="帮助">
-          <input type="submit" name="history" value="历史">
+          <input type="text" name="city" style="width:150px; height:30px;" placeholder="请输入城市名称或拼音">
+          <input type="submit" class="btn" name="search" value="查询">
+          <input type="submit" class="btn" name="help" value="帮助">
+          <input type="submit" class="btn" name="history" value="历史">
+          <input type="submit" class="btn" name="update" value="更正">
         </form>
       </div>
       {% block content %}
